@@ -1,0 +1,3377 @@
+{
+  "instances": [
+    {
+      "id": "06a7351d-32aa-4f4b-a020-c1cb9ad912cc",
+      "defId": "segment",
+      "x": 336,
+      "y": 120,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "gATES",
+        "segmentSize": {
+          "w": 552,
+          "h": 912
+        }
+      }
+    },
+    {
+      "id": "8bebc08d-06be-4cd5-8e12-1ddbae70891c",
+      "defId": "and2",
+      "x": 600,
+      "y": 312,
+      "rot": 0,
+      "name": "AND",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "6bc9f660-c8c0-4cc4-9a83-bfc1ec4795ed",
+      "defId": "or2",
+      "x": 600,
+      "y": 432,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "9e28bd41-f3e6-4a5d-8ded-cf002bf90f26",
+      "defId": "not",
+      "x": 600,
+      "y": 192,
+      "rot": 0,
+      "name": "NOT",
+      "outputs": [
+        true
+      ],
+      "state": {}
+    },
+    {
+      "id": "ec851f49-f9a3-43cb-965b-caef41af8870",
+      "defId": "nand2",
+      "x": 600,
+      "y": 672,
+      "rot": 0,
+      "name": "NAND",
+      "outputs": [
+        true
+      ],
+      "state": {}
+    },
+    {
+      "id": "3525b343-f1a9-498b-89b4-ab8aa4f320a8",
+      "defId": "xor2",
+      "x": 600,
+      "y": 552,
+      "rot": 0,
+      "name": "XOR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "9e9d6d64-665b-487c-97a3-9e6b13b96dee",
+      "defId": "nor2",
+      "x": 600,
+      "y": 792,
+      "rot": 0,
+      "name": "NOR",
+      "outputs": [
+        true
+      ],
+      "state": {}
+    },
+    {
+      "id": "72a38e83-8a93-4f2a-8a36-6e54107c3a92",
+      "defId": "xnor2",
+      "x": 600,
+      "y": 912,
+      "rot": 0,
+      "name": "XNOR",
+      "outputs": [
+        true
+      ],
+      "state": {}
+    },
+    {
+      "id": "28c7d55b-bc29-4baa-837a-afff573bdb4a",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 912,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "e466868a-a536-40c5-88ca-d50ea9a0bf6d",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 552,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "435d15e9-ed86-4e91-8399-faae6f263176",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 792,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "6a264f13-453d-4875-b862-885f76201e90",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 672,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "4c6afb73-8eac-4204-84a6-ed8339a13ae0",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 432,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "a8052507-ecc5-4bde-9191-b2cd50034744",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 312,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "fa563aeb-73d0-4571-b5c0-7d15f0807b6d",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 192,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "defId": "in-toggle",
+      "x": 480,
+      "y": 192,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "defId": "in-toggle",
+      "x": 360,
+      "y": 192,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "a29835d2-83e0-4f59-89ab-62dccf24995b",
+      "defId": "segment",
+      "x": 936,
+      "y": 120,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "sequential",
+        "segmentColor": "#8ff0a4",
+        "segmentSize": {
+          "w": 768,
+          "h": 504
+        }
+      }
+    },
+    {
+      "id": "50d10be6-c860-4555-a848-3c016d3a86b8",
+      "defId": "srlatch",
+      "x": 1344,
+      "y": 288,
+      "rot": 0,
+      "name": "SR Latch",
+      "outputs": [
+        false,
+        true
+      ],
+      "state": {
+        "Q": false
+      }
+    },
+    {
+      "id": "86f02ae8-eb51-4c2c-8b7d-306b62401523",
+      "defId": "dff",
+      "x": 1344,
+      "y": 384,
+      "rot": 0,
+      "name": "D Flip-Flop",
+      "outputs": [
+        false,
+        true
+      ],
+      "state": {
+        "Q": false,
+        "prevCLK": false
+      }
+    },
+    {
+      "id": "03795d0d-4083-4ba8-bc59-550c11ef9bf2",
+      "defId": "jkff",
+      "x": 1344,
+      "y": 480,
+      "rot": 0,
+      "name": "JK Flip-Flop",
+      "outputs": [
+        false,
+        true
+      ],
+      "state": {
+        "Q": false,
+        "prevCLK": false
+      }
+    },
+    {
+      "id": "d774d464-d31e-4922-a00c-ce528c6405ce",
+      "defId": "in-toggle",
+      "x": 1224,
+      "y": 192,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "11ec2930-de8d-4ed6-ade9-e8dd9472c577",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 192,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "6aabe3e6-bfb9-43f5-912f-4343ac9d4722",
+      "defId": "in-toggle",
+      "x": 1104,
+      "y": 192,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "6817ccf8-1d42-406d-aaba-067b285e1a75",
+      "defId": "out-probe",
+      "x": 1464,
+      "y": 240,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "8822ae64-0ad2-4b77-9b6d-f69417180629",
+      "defId": "out-probe",
+      "x": 1464,
+      "y": 360,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "840e4d1a-43a3-4c01-adb6-09a985953fda",
+      "defId": "out-probe",
+      "x": 1464,
+      "y": 480,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "53300967-918e-4b53-ab82-5a47736bd012",
+      "defId": "segment",
+      "x": 933.8,
+      "y": 668.92,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "I/o + SOURCE",
+        "segmentSize": {
+          "w": 768,
+          "h": 360
+        },
+        "segmentColor": "#f66151",
+        "segmentContentIds": [
+          "eefab17f-370b-4de6-bb8a-57c1f03a59e1",
+          "c5fd49cd-10c7-4ed0-ba50-585bb479feaa",
+          "81868827-7d7e-402a-972e-9a2077d9f7ae",
+          "3f1fcd56-78e8-471c-aca5-0e53ebd14d0d",
+          "27c56367-ef19-4765-afdc-fae5a54902d0",
+          "ce66c9d7-ae6f-42c0-baaf-ae0bc94c0f12",
+          "9458c31f-0cfe-40eb-99b7-b3ca56176cf3",
+          "d57b8809-4772-4bd7-aef4-4aad202cdfe7",
+          "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+          "e2d15b2d-70c7-4701-abc9-8b5e94cc5415"
+        ]
+      }
+    },
+    {
+      "id": "90b2e7a1-2d70-4881-9e83-067c38e742ee",
+      "defId": "segment",
+      "x": 936,
+      "y": 1080,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "7 SEGMENTS",
+        "segmentSize": {
+          "w": 768,
+          "h": 600
+        },
+        "segmentColor": "#f66151",
+        "segmentContentIds": [
+          "a010643e-922f-4b25-b0c2-18d651a0d68d",
+          "7f15ed17-a97a-4d11-a40f-884da5bf91ec",
+          "9ac1e3c9-2a6c-4590-a2f9-d2a0dd650709",
+          "0924669d-eb50-4aa4-9840-af03e028dac9",
+          "fd5a4a8b-0269-429c-b7b4-da392164029c",
+          "9822c91d-27d2-4325-9135-56de62f8c3dc",
+          "936affae-4efe-4d31-acb0-97cf6e9945a6"
+        ]
+      }
+    },
+    {
+      "id": "eefab17f-370b-4de6-bb8a-57c1f03a59e1",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 768,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "c5fd49cd-10c7-4ed0-ba50-585bb479feaa",
+      "defId": "in-button",
+      "x": 984,
+      "y": 888,
+      "rot": 0,
+      "name": "Input (Button)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "81868827-7d7e-402a-972e-9a2077d9f7ae",
+      "defId": "out-probe",
+      "x": 1104,
+      "y": 768,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "3f1fcd56-78e8-471c-aca5-0e53ebd14d0d",
+      "defId": "out-probe",
+      "x": 1104,
+      "y": 888,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "27c56367-ef19-4765-afdc-fae5a54902d0",
+      "defId": "out-probe",
+      "x": 1344,
+      "y": 768,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "a010643e-922f-4b25-b0c2-18d651a0d68d",
+      "defId": "seven-seg-bin",
+      "x": 1248,
+      "y": 1152,
+      "rot": 0,
+      "name": "7-Segment (BIN)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "7f15ed17-a97a-4d11-a40f-884da5bf91ec",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 1128,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "9ac1e3c9-2a6c-4590-a2f9-d2a0dd650709",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 1248,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "0924669d-eb50-4aa4-9840-af03e028dac9",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 1368,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "fd5a4a8b-0269-429c-b7b4-da392164029c",
+      "defId": "in-toggle",
+      "x": 984,
+      "y": 1488,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "defId": "bin4-to-7seg",
+      "x": 1248,
+      "y": 1320,
+      "rot": 0,
+      "name": "BIN -> 7SEG",
+      "outputs": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "defId": "seven-seg",
+      "x": 1392,
+      "y": 1320,
+      "rot": 0,
+      "name": "7-Segment",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "47f5deda-165e-41bc-9538-13a85d4bf7c4",
+      "defId": "segment",
+      "x": 336,
+      "y": 1080,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "pROGRAmming",
+        "segmentSize": {
+          "w": 552,
+          "h": 600
+        },
+        "segmentColor": "#ffbe6f"
+      }
+    },
+    {
+      "id": "59d6d381-9f1a-4df4-ae25-9931155e59f3",
+      "defId": "fpga",
+      "x": 600,
+      "y": 1200,
+      "rot": 0,
+      "name": "FPGA (VHDL)",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "fpgaVars": {
+          "tmp": false
+        },
+        "fpgaOutputs": {
+          "out0": false
+        },
+        "fpgaDiagnostics": [],
+        "fpgaCanRun": true
+      }
+    },
+    {
+      "id": "032acbc1-38b8-48dc-a8c5-2ae55043da5a",
+      "defId": "in-toggle",
+      "x": 432,
+      "y": 1128,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "0a6e91e5-5c48-449b-ac5b-ec26d6e7a48e",
+      "defId": "in-toggle",
+      "x": 432,
+      "y": 1248,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "5bb2c758-6fc0-45a1-809e-2b466e0e9aba",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 1200,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+      "defId": "segment",
+      "x": 1968,
+      "y": 288,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 3,
+        "segmentOutCount": 1,
+        "segmentCollapsed": false,
+        "segmentLabel": "Segment 1",
+        "segmentSize": {
+          "w": 312,
+          "h": 192
+        },
+        "segmentContentIds": [
+          "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+          "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3"
+        ]
+      }
+    },
+    {
+      "id": "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+      "defId": "or2",
+      "x": 2040,
+      "y": 384,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "140f98a0-2e0a-46b5-b40e-d186da84b033",
+      "defId": "segment-port",
+      "x": 2256,
+      "y": 360,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+        "segmentRole": "out",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "f5ccc948-19b9-4b7d-b3d1-feeb642575bb",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 336,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+        "segmentRole": "in",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "b3b20149-de1b-4af1-acd1-50540a08e866",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 360,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+        "segmentRole": "in",
+        "segmentIndex": 1
+      }
+    },
+    {
+      "id": "ff1102e0-f1d3-4150-ae14-cc9b54a74bb0",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 384,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+        "segmentRole": "in",
+        "segmentIndex": 2
+      }
+    },
+    {
+      "id": "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3",
+      "defId": "or2",
+      "x": 2160,
+      "y": 336,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "c29683fa-234c-4fce-905d-bfb28078dbb0",
+      "defId": "out-probe",
+      "x": 2328,
+      "y": 336,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "8e75c47a-d41a-4b36-8683-d56332c27e2f",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 216,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "94dbc051-0d6c-411b-851f-ada9e9bd9594",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 336,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "a230244e-2507-411b-9784-7f84e951fa40",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 456,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "69b21a62-c150-49ab-95f4-ee71887382f1",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 216,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "1494534e-5a6c-42c8-87b5-0d70af04a4bb",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 456,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "3d9bc6f2-9c27-4535-b922-a4f6b997554c",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 336,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "cb422ceb-2024-4836-8c9e-b68435624320",
+      "defId": "out-probe",
+      "x": 3000,
+      "y": 336,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "a03ba0fe-1bb9-4a06-bc62-2af9bf4c1a2e",
+      "defId": "out-probe",
+      "x": 2112,
+      "y": 720,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "56295c57-255b-4256-a40d-d68998d199af",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 600,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "0669cbbf-663d-4089-a671-aa9cf9dde920",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 720,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "cbe6e100-8657-4205-a15a-4ef144c47de6",
+      "defId": "in-toggle",
+      "x": 1848,
+      "y": 840,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "7239a897-feeb-4dd9-9398-e5183c95fce4",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 600,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "9665d683-c39f-48e0-b800-5e89cb472f4c",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 840,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "a4aaef2a-3745-4a22-8044-1228a021d2f8",
+      "defId": "in-toggle",
+      "x": 2448,
+      "y": 720,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "eb196d18-fc23-4616-996b-1ff4f14687a6",
+      "defId": "out-probe",
+      "x": 2784,
+      "y": 720,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "c992b858-475e-4c86-810b-256ee55ae635",
+      "defId": "segment",
+      "x": 1968,
+      "y": 720,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 3,
+        "segmentOutCount": 1,
+        "segmentCollapsed": true,
+        "segmentLabel": "Segment 1",
+        "segmentSize": {
+          "w": 312,
+          "h": 192
+        },
+        "segmentContentIds": [
+          "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+          "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8"
+        ]
+      }
+    },
+    {
+      "id": "9e81466b-18b2-470b-9344-dc3b4d891844",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 720,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "c992b858-475e-4c86-810b-256ee55ae635",
+        "segmentRole": "in",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "3877b032-7eeb-4273-b0b4-ca0b83489b02",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 744,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "c992b858-475e-4c86-810b-256ee55ae635",
+        "segmentRole": "in",
+        "segmentIndex": 1
+      }
+    },
+    {
+      "id": "7f14dfd7-d164-42b8-ad04-c6a2c42662d6",
+      "defId": "segment-port",
+      "x": 1968,
+      "y": 768,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "c992b858-475e-4c86-810b-256ee55ae635",
+        "segmentRole": "in",
+        "segmentIndex": 2
+      }
+    },
+    {
+      "id": "4d2ae2fb-ef51-4724-8221-1419aaff1ea4",
+      "defId": "segment-port",
+      "x": 2040,
+      "y": 744,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "c992b858-475e-4c86-810b-256ee55ae635",
+        "segmentRole": "out",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+      "defId": "or2",
+      "x": 2040,
+      "y": 816,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8",
+      "defId": "or2",
+      "x": 2160,
+      "y": 768,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "84182584-a13a-4ff4-8fc0-c5d48fe28220",
+      "defId": "segment",
+      "x": 2616,
+      "y": 720,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 1,
+        "segmentOutCount": 1,
+        "segmentCollapsed": true,
+        "segmentLabel": "Segment 2",
+        "segmentSize": {
+          "w": 336,
+          "h": 192
+        },
+        "segmentContentIds": [
+          "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+          "2a85695c-7422-4b35-a553-d823dbd03b08"
+        ]
+      }
+    },
+    {
+      "id": "5982f154-3740-4d4d-96a8-d419664630c9",
+      "defId": "segment-port",
+      "x": 2616,
+      "y": 744,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "84182584-a13a-4ff4-8fc0-c5d48fe28220",
+        "segmentRole": "in",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "08ab075e-4a2d-4861-85ec-3b88ce58d1a4",
+      "defId": "segment-port",
+      "x": 2688,
+      "y": 744,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "84182584-a13a-4ff4-8fc0-c5d48fe28220",
+        "segmentRole": "out",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+      "defId": "or2",
+      "x": 2712,
+      "y": 816,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "2a85695c-7422-4b35-a553-d823dbd03b08",
+      "defId": "or2",
+      "x": 2832,
+      "y": 768,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "57693410-8d2a-4f29-8305-75b959f7a6d7",
+      "defId": "segment",
+      "x": 2616,
+      "y": 288,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 1,
+        "segmentOutCount": 1,
+        "segmentCollapsed": false,
+        "segmentLabel": "Segment 2",
+        "segmentSize": {
+          "w": 336,
+          "h": 192
+        },
+        "segmentContentIds": [
+          "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+          "4e891966-18bf-43ab-8148-80382a3d0e85"
+        ]
+      }
+    },
+    {
+      "id": "38c2d805-d1f3-49bb-82b8-00eaa1b0c02a",
+      "defId": "segment-port",
+      "x": 2616,
+      "y": 360,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "57693410-8d2a-4f29-8305-75b959f7a6d7",
+        "segmentRole": "in",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "8d2fbeb2-7fff-4746-9458-f6d4feeb27fe",
+      "defId": "segment-port",
+      "x": 2928,
+      "y": 360,
+      "rot": 0,
+      "name": "Segment Port",
+      "outputs": [
+        false
+      ],
+      "state": {
+        "segmentParentId": "57693410-8d2a-4f29-8305-75b959f7a6d7",
+        "segmentRole": "out",
+        "segmentIndex": 0
+      }
+    },
+    {
+      "id": "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+      "defId": "or2",
+      "x": 2712,
+      "y": 384,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "4e891966-18bf-43ab-8148-80382a3d0e85",
+      "defId": "or2",
+      "x": 2832,
+      "y": 336,
+      "rot": 0,
+      "name": "OR",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "78b1678f-6576-4874-9d66-13e14bb9ef80",
+      "defId": "segment",
+      "x": 1752,
+      "y": 120.968,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "SegmentS",
+        "segmentSize": {
+          "w": 1368,
+          "h": 912
+        },
+        "segmentColor": "#dc8add",
+        "segmentContentIds": [
+          "942e3cbc-74ef-412d-9548-d3bd6a7e6519",
+          "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+          "140f98a0-2e0a-46b5-b40e-d186da84b033",
+          "f5ccc948-19b9-4b7d-b3d1-feeb642575bb",
+          "b3b20149-de1b-4af1-acd1-50540a08e866",
+          "ff1102e0-f1d3-4150-ae14-cc9b54a74bb0",
+          "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3",
+          "c29683fa-234c-4fce-905d-bfb28078dbb0",
+          "8e75c47a-d41a-4b36-8683-d56332c27e2f",
+          "94dbc051-0d6c-411b-851f-ada9e9bd9594",
+          "a230244e-2507-411b-9784-7f84e951fa40",
+          "69b21a62-c150-49ab-95f4-ee71887382f1",
+          "1494534e-5a6c-42c8-87b5-0d70af04a4bb",
+          "3d9bc6f2-9c27-4535-b922-a4f6b997554c",
+          "cb422ceb-2024-4836-8c9e-b68435624320",
+          "a03ba0fe-1bb9-4a06-bc62-2af9bf4c1a2e",
+          "56295c57-255b-4256-a40d-d68998d199af",
+          "0669cbbf-663d-4089-a671-aa9cf9dde920",
+          "cbe6e100-8657-4205-a15a-4ef144c47de6",
+          "7239a897-feeb-4dd9-9398-e5183c95fce4",
+          "9665d683-c39f-48e0-b800-5e89cb472f4c",
+          "a4aaef2a-3745-4a22-8044-1228a021d2f8",
+          "eb196d18-fc23-4616-996b-1ff4f14687a6",
+          "c992b858-475e-4c86-810b-256ee55ae635",
+          "9e81466b-18b2-470b-9344-dc3b4d891844",
+          "3877b032-7eeb-4273-b0b4-ca0b83489b02",
+          "7f14dfd7-d164-42b8-ad04-c6a2c42662d6",
+          "4d2ae2fb-ef51-4724-8221-1419aaff1ea4",
+          "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+          "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8",
+          "84182584-a13a-4ff4-8fc0-c5d48fe28220",
+          "5982f154-3740-4d4d-96a8-d419664630c9",
+          "08ab075e-4a2d-4861-85ec-3b88ce58d1a4",
+          "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+          "2a85695c-7422-4b35-a553-d823dbd03b08",
+          "57693410-8d2a-4f29-8305-75b959f7a6d7",
+          "38c2d805-d1f3-49bb-82b8-00eaa1b0c02a",
+          "8d2fbeb2-7fff-4746-9458-f6d4feeb27fe",
+          "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+          "4e891966-18bf-43ab-8148-80382a3d0e85"
+        ]
+      }
+    },
+    {
+      "id": "7fdda121-893f-42c5-a9bf-46655547c71a",
+      "defId": "segment",
+      "x": 1752,
+      "y": 1080,
+      "rot": 0,
+      "name": "Segment",
+      "outputs": [],
+      "state": {
+        "segmentInCount": 0,
+        "segmentOutCount": 0,
+        "segmentCollapsed": false,
+        "segmentLabel": "nOTES",
+        "segmentSize": {
+          "w": 1368,
+          "h": 600
+        },
+        "segmentColor": "#fef9c3",
+        "segmentContentIds": [
+          "afa6999b-f716-4c44-bad3-16bf7243b33f",
+          "750f5430-44ea-45b9-897d-be84c2a02004"
+        ]
+      }
+    },
+    {
+      "id": "afa6999b-f716-4c44-bad3-16bf7243b33f",
+      "defId": "note",
+      "x": 1800,
+      "y": 1224,
+      "rot": 0,
+      "name": "Note",
+      "outputs": [],
+      "state": {
+        "noteText": "THIS IS TEXT",
+        "noteTitle": "TEXT-NOTE",
+        "noteMode": "text",
+        "noteTableRows": 2,
+        "noteTableCols": 2,
+        "noteTableData": [
+          [
+            "",
+            ""
+          ],
+          [
+            "",
+            ""
+          ]
+        ],
+        "noteSize": {
+          "w": 600,
+          "h": 288
+        }
+      }
+    },
+    {
+      "id": "750f5430-44ea-45b9-897d-be84c2a02004",
+      "defId": "note",
+      "x": 2448,
+      "y": 1224,
+      "rot": 0,
+      "name": "Note",
+      "outputs": [],
+      "state": {
+        "noteText": "",
+        "noteTitle": "TABLE-NOTE",
+        "noteMode": "table",
+        "noteTableRows": 9,
+        "noteTableCols": 16,
+        "noteTableData": [
+          [
+            "T",
+            "H",
+            "I",
+            "S",
+            "",
+            "I",
+            "S",
+            "",
+            "A",
+            "",
+            "T",
+            "A",
+            "B",
+            "L",
+            "E",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ],
+        "noteSize": {
+          "w": 624,
+          "h": 288
+        }
+      }
+    },
+    {
+      "id": "ce66c9d7-ae6f-42c0-baaf-ae0bc94c0f12",
+      "defId": "clock",
+      "x": 1224,
+      "y": 768,
+      "rot": 0,
+      "name": "Clock",
+      "outputs": [
+        true
+      ],
+      "state": {
+        "hz": 1,
+        "periodMs": 1000,
+        "_simTime": 0,
+        "_lastTickSeq": -1
+      }
+    },
+    {
+      "id": "9458c31f-0cfe-40eb-99b7-b3ca56176cf3",
+      "defId": "signal-gen",
+      "x": 1224,
+      "y": 888,
+      "rot": 0,
+      "name": "Signal Generator",
+      "outputs": [
+        true
+      ],
+      "state": {
+        "channels": [
+          {
+            "name": "Q0",
+            "steps": [
+              {
+                "on": 1000,
+                "off": 1000
+              },
+              {
+                "on": 2000,
+                "off": 1000
+              }
+            ],
+            "repeat": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "d57b8809-4772-4bd7-aef4-4aad202cdfe7",
+      "defId": "out-probe",
+      "x": 1344,
+      "y": 888,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "defId": "out-probe-8",
+      "x": 1584,
+      "y": 768,
+      "rot": 0,
+      "name": "Probe 8× LED",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "e2d15b2d-70c7-4701-abc9-8b5e94cc5415",
+      "defId": "in-toggle",
+      "x": 1464,
+      "y": 768,
+      "rot": 0,
+      "name": "Input (Switch)",
+      "outputs": [
+        false
+      ],
+      "state": {}
+    },
+    {
+      "id": "79c7c31b-f782-4715-8549-1bf8d5fdfc3c",
+      "defId": "out-probe",
+      "x": 1464,
+      "y": 888,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "0269fb8a-0f87-42e5-9dda-1e4c5bef34cd",
+      "defId": "mcu",
+      "x": 432,
+      "y": 1368,
+      "rot": 0,
+      "name": "MCU (C/Arduino)",
+      "outputs": [
+        true
+      ],
+      "state": {
+        "mcuCode": "void setup() {\npinMode(13, OUTPUT);   // Set pin 13 as output\n}\n\nvoid loop() {\ndigitalWrite(13, HIGH);  // LED ON\ndelay(500);\n\ndigitalWrite(13, LOW);   // LED OFF\ndelay(500);\n}\n",
+        "mcuVars": {},
+        "mcuOutputs": {
+          "d13": true
+        },
+        "mcuDiagnostics": [],
+        "mcuCanRun": true
+      }
+    },
+    {
+      "id": "6478ff5f-a58e-4c1a-868f-b1093df25e14",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 1392,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    },
+    {
+      "id": "6dd17d4b-6da7-4a76-b0b1-228e9864a5cd",
+      "defId": "mcu",
+      "x": 432,
+      "y": 1512,
+      "rot": 0,
+      "name": "MCU (C/Arduino)",
+      "outputs": [
+        true
+      ],
+      "state": {
+        "mcuCode": "#define F_CPU 16000000UL   // CPU frequency (16 MHz for Arduino Uno)\n\n#include <avr/io.h>\n#include <util/delay.h>\n\nint main(void)\n{\n    // Set PB5 (Pin 13) as output\n    DDRB |= (1 << PB5); #io\n\n    while (1)\n    {\n        // Turn LED ON\n        PORTB |= (1 << PB5);\n\n        _delay_ms(500);\n\n        // Turn LED OFF\n        PORTB &= ~(1 << PB5);\n\n        _delay_ms(500);\n    }\n}",
+        "mcuVars": {
+          "ddra": 0,
+          "ddrb": 0,
+          "ddrc": 0,
+          "ddrd": 0,
+          "porta": 0,
+          "portb": 0,
+          "portc": 0,
+          "portd": 0,
+          "pina": 0,
+          "pinb": 0,
+          "pinc": 0,
+          "pind": 0
+        },
+        "mcuOutputs": {
+          "pb5": true
+        },
+        "mcuDiagnostics": [],
+        "mcuCanRun": true
+      }
+    },
+    {
+      "id": "077a654c-b4b8-4274-a29d-32da0adaa5e0",
+      "defId": "out-probe",
+      "x": 720,
+      "y": 1536,
+      "rot": 0,
+      "name": "Probe (LED)",
+      "outputs": [],
+      "state": {}
+    }
+  ],
+  "wires": [
+    {
+      "id": "84d543b8-c5dc-4a20-b055-dd9c4ef1c38a",
+      "from": "ec851f49-f9a3-43cb-965b-caef41af8870",
+      "fromPort": 0,
+      "to": "6a264f13-453d-4875-b862-885f76201e90",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-067a08cd-c1eb-4287-b5aa-fd11b13b3ec3"
+    },
+    {
+      "id": "921ce8e4-cac0-46b0-b2b1-ed3288a9ba80",
+      "from": "9e9d6d64-665b-487c-97a3-9e6b13b96dee",
+      "fromPort": 0,
+      "to": "435d15e9-ed86-4e91-8399-faae6f263176",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-79f2566d-c7c2-4159-bf0a-f085c8d79aae"
+    },
+    {
+      "id": "2442f328-ff07-4eca-9f32-9b303e65d071",
+      "from": "72a38e83-8a93-4f2a-8a36-6e54107c3a92",
+      "fromPort": 0,
+      "to": "28c7d55b-bc29-4baa-837a-afff573bdb4a",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-2ee4b5e1-96fd-4ba6-852c-3219cfbaecc0"
+    },
+    {
+      "id": "796ddadd-84fe-407e-9076-267c17c44d7b",
+      "from": "3525b343-f1a9-498b-89b4-ab8aa4f320a8",
+      "fromPort": 0,
+      "to": "e466868a-a536-40c5-88ca-d50ea9a0bf6d",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-3de01a8d-ff79-4501-8ec6-59f6238d9f0a"
+    },
+    {
+      "id": "c65286de-f635-46eb-aac3-61f6e23c1f6b",
+      "from": "6bc9f660-c8c0-4cc4-9a83-bfc1ec4795ed",
+      "fromPort": 0,
+      "to": "4c6afb73-8eac-4204-84a6-ed8339a13ae0",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-244e9cb4-6459-43cf-8897-05fd74ba90b5"
+    },
+    {
+      "id": "ff04b37e-e7b3-42b9-a17c-9ec63ad4109c",
+      "from": "8bebc08d-06be-4cd5-8e12-1ddbae70891c",
+      "fromPort": 0,
+      "to": "a8052507-ecc5-4bde-9191-b2cd50034744",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-3fc0c675-222d-48ff-813b-ff6e2bb1fa5d"
+    },
+    {
+      "id": "b3478c44-2be8-4049-af55-52a064005ef3",
+      "from": "9e28bd41-f3e6-4a5d-8ded-cf002bf90f26",
+      "fromPort": 0,
+      "to": "fa563aeb-73d0-4571-b5c0-7d15f0807b6d",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-9b0456a9-5491-4a35-92a0-b604746845d0"
+    },
+    {
+      "id": "d404a391-4d6d-4ce6-96b8-46550aa20f68",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "72a38e83-8a93-4f2a-8a36-6e54107c3a92",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 240
+        },
+        {
+          "x": 456,
+          "y": 360
+        },
+        {
+          "x": 456,
+          "y": 480
+        },
+        {
+          "x": 456,
+          "y": 600
+        },
+        {
+          "x": 456,
+          "y": 720
+        },
+        {
+          "x": 456,
+          "y": 840
+        },
+        {
+          "x": 456,
+          "y": 960
+        }
+      ],
+      "tap": null,
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "b29ec1b8-7159-4584-b225-8022bf4b494d",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "9e9d6d64-665b-487c-97a3-9e6b13b96dee",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 840
+        }
+      ],
+      "tap": {
+        "x": 456,
+        "y": 840
+      },
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "c51c6367-61a0-481d-9dce-01a4ff45d28d",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "ec851f49-f9a3-43cb-965b-caef41af8870",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 720
+        }
+      ],
+      "tap": {
+        "x": 456,
+        "y": 720
+      },
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "195ccdb4-6468-45c3-bf13-bdf621c84fbd",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "3525b343-f1a9-498b-89b4-ab8aa4f320a8",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 600
+        }
+      ],
+      "tap": {
+        "x": 456,
+        "y": 600
+      },
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "23957eb4-033e-453e-8c4c-d0228d1eb904",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "6bc9f660-c8c0-4cc4-9a83-bfc1ec4795ed",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 480
+        }
+      ],
+      "tap": {
+        "x": 456,
+        "y": 480
+      },
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "bfeba0b9-4f2e-48b7-a5b9-6e0944126f2b",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "72a38e83-8a93-4f2a-8a36-6e54107c3a92",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 240
+        },
+        {
+          "x": 576,
+          "y": 336
+        },
+        {
+          "x": 576,
+          "y": 456
+        },
+        {
+          "x": 576,
+          "y": 576
+        },
+        {
+          "x": 576,
+          "y": 696
+        },
+        {
+          "x": 576,
+          "y": 816
+        },
+        {
+          "x": 576,
+          "y": 936
+        }
+      ],
+      "tap": null,
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "0a2ef7ea-9703-41bd-9d90-542236f83b33",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "6bc9f660-c8c0-4cc4-9a83-bfc1ec4795ed",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 456
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 456
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "bba05f1c-2fe2-4158-b084-ff7e2fb93cb3",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "3525b343-f1a9-498b-89b4-ab8aa4f320a8",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 576
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 576
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "6246a96c-bc81-4142-8cf9-2b2a4d6dbd81",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "ec851f49-f9a3-43cb-965b-caef41af8870",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 696
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 696
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "4c8591a5-7801-4984-b048-c035ccf89a15",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "9e9d6d64-665b-487c-97a3-9e6b13b96dee",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 816
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 816
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "c164053d-e53b-4f29-98ec-541cfd260ae0",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "9e28bd41-f3e6-4a5d-8ded-cf002bf90f26",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 240
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 240
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "e6984f5d-451c-4441-a27f-e875c7723bf2",
+      "from": "164a9c4e-1f59-4111-b52a-389e4dfff8a5",
+      "fromPort": 0,
+      "to": "8bebc08d-06be-4cd5-8e12-1ddbae70891c",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 456,
+          "y": 360
+        }
+      ],
+      "tap": {
+        "x": 456,
+        "y": 360
+      },
+      "netId": "net-f16a481e-235c-4d28-b350-6e52056df15b"
+    },
+    {
+      "id": "2c00b7c5-a0da-483e-bfbd-f69a32cd22d3",
+      "from": "29de44b3-db44-4352-b488-e8f15cf3f1c0",
+      "fromPort": 0,
+      "to": "8bebc08d-06be-4cd5-8e12-1ddbae70891c",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 576,
+          "y": 336
+        }
+      ],
+      "tap": {
+        "x": 576,
+        "y": 336
+      },
+      "netId": "net-bf8ddc23-1ae7-4304-baf2-e2ccab739fa9"
+    },
+    {
+      "id": "17ade7c0-84ba-452e-9921-3456b0b6a53d",
+      "from": "86f02ae8-eb51-4c2c-8b7d-306b62401523",
+      "fromPort": 0,
+      "to": "8822ae64-0ad2-4b77-9b6d-f69417180629",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1440,
+          "y": 408
+        }
+      ],
+      "tap": null,
+      "netId": "net-9f80ff08-aa79-4316-812c-32ae6c1f2d0a"
+    },
+    {
+      "id": "88d8a3b2-20f6-4fd4-b265-d1fdb2d761da",
+      "from": "03795d0d-4083-4ba8-bc59-550c11ef9bf2",
+      "fromPort": 0,
+      "to": "840e4d1a-43a3-4c01-adb6-09a985953fda",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1440,
+          "y": 528
+        },
+        {
+          "x": 1464,
+          "y": 528
+        }
+      ],
+      "tap": null,
+      "netId": "net-89169efc-4b7e-4a77-97db-805e11ab2cff"
+    },
+    {
+      "id": "3a038f82-65d6-4b0b-9ae1-08a1cc4d9816",
+      "from": "eefab17f-370b-4de6-bb8a-57c1f03a59e1",
+      "fromPort": 0,
+      "to": "81868827-7d7e-402a-972e-9a2077d9f7ae",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-cc8f45bb-bcd3-4433-87e6-fdd39414d17e"
+    },
+    {
+      "id": "53c6e643-b725-4eb9-8f54-67974b69a1e3",
+      "from": "c5fd49cd-10c7-4ed0-ba50-585bb479feaa",
+      "fromPort": 0,
+      "to": "3f1fcd56-78e8-471c-aca5-0e53ebd14d0d",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-dfddc540-e917-47ab-bdc2-6764ad328a16"
+    },
+    {
+      "id": "cba0357e-1f75-4ada-9a8f-a75b64f98133",
+      "from": "7f15ed17-a97a-4d11-a40f-884da5bf91ec",
+      "fromPort": 0,
+      "to": "a010643e-922f-4b25-b0c2-18d651a0d68d",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1224,
+          "y": 1176
+        }
+      ],
+      "tap": null,
+      "netId": "net-8e72900e-7f22-4995-bebe-1499717caa20"
+    },
+    {
+      "id": "68a71254-cd91-4edb-aca5-ee9232e7b969",
+      "from": "9ac1e3c9-2a6c-4590-a2f9-d2a0dd650709",
+      "fromPort": 0,
+      "to": "a010643e-922f-4b25-b0c2-18d651a0d68d",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1080,
+          "y": 1200
+        },
+        {
+          "x": 1200,
+          "y": 1200
+        }
+      ],
+      "tap": null,
+      "netId": "net-73d1991a-6d59-455e-8bfc-84ccf903f494"
+    },
+    {
+      "id": "0fdcc8fc-4ebe-46a0-ac11-99572ea88874",
+      "from": "0924669d-eb50-4aa4-9840-af03e028dac9",
+      "fromPort": 0,
+      "to": "a010643e-922f-4b25-b0c2-18d651a0d68d",
+      "toPort": 2,
+      "points": [
+        {
+          "x": 1104,
+          "y": 1224
+        },
+        {
+          "x": 1176,
+          "y": 1224
+        }
+      ],
+      "tap": null,
+      "netId": "net-d7a3384d-8dd2-49d9-8835-f3c4fe2e4769"
+    },
+    {
+      "id": "08856ae0-4cf0-4182-80c6-68e41d8f6295",
+      "from": "fd5a4a8b-0269-429c-b7b4-da392164029c",
+      "fromPort": 0,
+      "to": "a010643e-922f-4b25-b0c2-18d651a0d68d",
+      "toPort": 3,
+      "points": [
+        {
+          "x": 1128,
+          "y": 1248
+        },
+        {
+          "x": 1248,
+          "y": 1248
+        },
+        {
+          "x": 1152,
+          "y": 1248
+        }
+      ],
+      "tap": null,
+      "netId": "net-ffe54399-f2e4-4af6-b369-a6d1fd3108d6"
+    },
+    {
+      "id": "f069c341-dc64-4c5d-be34-7f2c1e08f242",
+      "from": "7f15ed17-a97a-4d11-a40f-884da5bf91ec",
+      "fromPort": 0,
+      "to": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1224,
+          "y": 1176
+        },
+        {
+          "x": 1224,
+          "y": 1392
+        }
+      ],
+      "tap": {
+        "x": 1224,
+        "y": 1176
+      },
+      "netId": "net-8e72900e-7f22-4995-bebe-1499717caa20"
+    },
+    {
+      "id": "6f0e1dc4-d5e2-49aa-93c5-dcfd0ab8813a",
+      "from": "9ac1e3c9-2a6c-4590-a2f9-d2a0dd650709",
+      "fromPort": 0,
+      "to": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1200,
+          "y": 1200
+        },
+        {
+          "x": 1200,
+          "y": 1416
+        }
+      ],
+      "tap": {
+        "x": 1200,
+        "y": 1200
+      },
+      "netId": "net-73d1991a-6d59-455e-8bfc-84ccf903f494"
+    },
+    {
+      "id": "ae003d0f-6702-4f72-8f64-b9ff91fe172a",
+      "from": "0924669d-eb50-4aa4-9840-af03e028dac9",
+      "fromPort": 0,
+      "to": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "toPort": 2,
+      "points": [
+        {
+          "x": 1176,
+          "y": 1224
+        },
+        {
+          "x": 1176,
+          "y": 1440
+        }
+      ],
+      "tap": {
+        "x": 1176,
+        "y": 1224
+      },
+      "netId": "net-d7a3384d-8dd2-49d9-8835-f3c4fe2e4769"
+    },
+    {
+      "id": "b8412c2a-e4f1-4f49-b7e7-ac456ddbe121",
+      "from": "fd5a4a8b-0269-429c-b7b4-da392164029c",
+      "fromPort": 0,
+      "to": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "toPort": 3,
+      "points": [
+        {
+          "x": 1152,
+          "y": 1248
+        },
+        {
+          "x": 1152,
+          "y": 1464
+        }
+      ],
+      "tap": {
+        "x": 1152,
+        "y": 1248
+      },
+      "netId": "net-ffe54399-f2e4-4af6-b369-a6d1fd3108d6"
+    },
+    {
+      "id": "f44cdac8-8b36-48fa-b786-4ba2944a4fac",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 0,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-60984207-c974-4367-9094-a36034aece48"
+    },
+    {
+      "id": "491451bd-3b86-4d85-8d00-b56217e8ada6",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 1,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 1,
+      "points": [],
+      "tap": null,
+      "netId": "net-7773e77d-f8af-4528-b438-351fb9b9b130"
+    },
+    {
+      "id": "11a20ed4-f243-4a75-9f51-16e01258fd71",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 2,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 2,
+      "points": [],
+      "tap": null,
+      "netId": "net-e9d35c8a-7a3d-4084-8531-f3d0f750350f"
+    },
+    {
+      "id": "66d616e5-c1c0-400d-8300-066bd56232e2",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 3,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 3,
+      "points": [],
+      "tap": null,
+      "netId": "net-409857bb-b3cb-4a64-bab4-b3f5c6a22750"
+    },
+    {
+      "id": "73e516b3-59c4-4b5c-a54d-7737d27ea334",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 4,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 4,
+      "points": [],
+      "tap": null,
+      "netId": "net-76c03666-8d81-4ddf-b062-03552d026380"
+    },
+    {
+      "id": "de56e595-ff30-4475-94f1-5b4334a12b6c",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 5,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 5,
+      "points": [],
+      "tap": null,
+      "netId": "net-dfe16572-50cf-4913-8347-6769a70d56a4"
+    },
+    {
+      "id": "ff25bb10-5b34-4f16-8f8e-2468c6b16c9e",
+      "from": "032acbc1-38b8-48dc-a8c5-2ae55043da5a",
+      "fromPort": 0,
+      "to": "59d6d381-9f1a-4df4-ae25-9931155e59f3",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 552,
+          "y": 1224
+        }
+      ],
+      "tap": null,
+      "netId": "net-6de66355-694f-4b3d-9323-32256b6ede67"
+    },
+    {
+      "id": "7ccb2353-e357-4b94-a443-bfafed2f5aca",
+      "from": "0a6e91e5-5c48-449b-ac5b-ec26d6e7a48e",
+      "fromPort": 0,
+      "to": "59d6d381-9f1a-4df4-ae25-9931155e59f3",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 552,
+          "y": 1248
+        }
+      ],
+      "tap": null,
+      "netId": "net-3ea90609-0739-4789-8206-5dae898f7389"
+    },
+    {
+      "id": "3af24e08-f192-45f5-a4d5-7cb88529055a",
+      "from": "59d6d381-9f1a-4df4-ae25-9931155e59f3",
+      "fromPort": 0,
+      "to": "5bb2c758-6fc0-45a1-809e-2b466e0e9aba",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-db33aef1-7b91-4029-8fab-1d26b7065919"
+    },
+    {
+      "id": "684b320c-678a-4cb4-9d7a-0de0621b4303",
+      "from": "b3b20149-de1b-4af1-acd1-50540a08e866",
+      "fromPort": 0,
+      "to": "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2016,
+          "y": 408
+        }
+      ],
+      "tap": null,
+      "netId": "net-ea300cd7-d222-4675-bd8f-959586e346f4"
+    },
+    {
+      "id": "5e877181-0ddc-443f-8184-1ce904486a62",
+      "from": "ff1102e0-f1d3-4150-ae14-cc9b54a74bb0",
+      "fromPort": 0,
+      "to": "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1992,
+          "y": 432
+        }
+      ],
+      "tap": null,
+      "netId": "net-7a97e2a8-17d7-455a-b4f0-c94b386c0346"
+    },
+    {
+      "id": "8a63d048-0ba6-4e0d-ac6b-0ce09c0bc6bc",
+      "from": "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3",
+      "fromPort": 0,
+      "to": "140f98a0-2e0a-46b5-b40e-d186da84b033",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-1c0e03e5-c568-471f-a387-d0865deb64c3"
+    },
+    {
+      "id": "3325ddef-e553-4080-803f-d2298f0e7d58",
+      "from": "f5ccc948-19b9-4b7d-b3d1-feeb642575bb",
+      "fromPort": 0,
+      "to": "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2160,
+          "y": 360
+        }
+      ],
+      "tap": null,
+      "netId": "net-aa6c8028-cb85-447a-a430-d2dd9034d0ff"
+    },
+    {
+      "id": "5e3b00a6-c0cb-4354-b0c3-e97f61d8e1a4",
+      "from": "d392dc19-bb44-4a32-ae0a-aaddd0a26e6a",
+      "fromPort": 0,
+      "to": "a0cf9d04-ae43-4f2a-9777-d3fa92e376c3",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2136,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "netId": "net-bbfa053a-29ce-47ed-969d-8932422f87c2"
+    },
+    {
+      "id": "038f523a-3770-46df-aa0c-bc6e96b85a54",
+      "from": "140f98a0-2e0a-46b5-b40e-d186da84b033",
+      "fromPort": 0,
+      "to": "c29683fa-234c-4fce-905d-bfb28078dbb0",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-7ee2b09e-d320-4d12-a5f5-327e9d5bf11a"
+    },
+    {
+      "id": "84a96b4b-bc37-41ae-94cc-8200a1ef1b01",
+      "from": "a230244e-2507-411b-9784-7f84e951fa40",
+      "fromPort": 0,
+      "to": "ff1102e0-f1d3-4150-ae14-cc9b54a74bb0",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1944,
+          "y": 408
+        },
+        {
+          "x": 1968,
+          "y": 408
+        }
+      ],
+      "tap": null,
+      "netId": "net-3efc6ee4-531d-4a5f-a908-80cd42f9385c"
+    },
+    {
+      "id": "c5a64afe-ca5a-473c-abff-16b5c1a5a944",
+      "from": "94dbc051-0d6c-411b-851f-ada9e9bd9594",
+      "fromPort": 0,
+      "to": "b3b20149-de1b-4af1-acd1-50540a08e866",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-12b96a24-aa38-4e70-a1b3-29177c5091f6"
+    },
+    {
+      "id": "a7008bea-e3fb-4cbd-b9c2-174498be5ad5",
+      "from": "8e75c47a-d41a-4b36-8683-d56332c27e2f",
+      "fromPort": 0,
+      "to": "f5ccc948-19b9-4b7d-b3d1-feeb642575bb",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1944,
+          "y": 360
+        }
+      ],
+      "tap": null,
+      "netId": "net-10339b44-263e-4c9c-b933-0a85502cb866"
+    },
+    {
+      "id": "31883c79-449c-4d42-9821-c364248ff0b8",
+      "from": "9822c91d-27d2-4325-9135-56de62f8c3dc",
+      "fromPort": 6,
+      "to": "936affae-4efe-4d31-acb0-97cf6e9945a6",
+      "toPort": 6,
+      "points": [],
+      "tap": null,
+      "netId": "net-cc496990-2d3e-4c9c-a039-a06f156ddac1"
+    },
+    {
+      "id": "e1d50547-5cb4-4a6b-855b-a01a8f70e8cc",
+      "from": "3877b032-7eeb-4273-b0b4-ca0b83489b02",
+      "fromPort": 0,
+      "to": "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2016,
+          "y": 840
+        }
+      ],
+      "tap": null,
+      "netId": "net-1bcd2782-3534-44dc-969e-d45e08c0f429"
+    },
+    {
+      "id": "b403ca5b-a823-4bd1-ba34-07ba6bc80e04",
+      "from": "7f14dfd7-d164-42b8-ad04-c6a2c42662d6",
+      "fromPort": 0,
+      "to": "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1992,
+          "y": 864
+        }
+      ],
+      "tap": null,
+      "netId": "net-2edf0609-1a20-4aa4-9c32-7932331e0c3e"
+    },
+    {
+      "id": "c7e65276-12fe-47bf-9a57-0fc53d1a39ff",
+      "from": "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8",
+      "fromPort": 0,
+      "to": "4d2ae2fb-ef51-4724-8221-1419aaff1ea4",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-65067322-66d2-4799-b4a5-a0ec050ff861"
+    },
+    {
+      "id": "409587cc-b99c-485c-8c20-e592f2d36b92",
+      "from": "9e81466b-18b2-470b-9344-dc3b4d891844",
+      "fromPort": 0,
+      "to": "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2160,
+          "y": 792
+        }
+      ],
+      "tap": null,
+      "netId": "net-ccbd60fb-2d84-413a-8b9b-c1dced935c0c"
+    },
+    {
+      "id": "2c2665cb-1c01-4d83-860d-e3c224533fed",
+      "from": "7a4d0fe8-81c6-4c89-8b0c-c032a3cf4e21",
+      "fromPort": 0,
+      "to": "4dd3d932-4f0e-49c4-8ae1-6edd6fc4bfd8",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2136,
+          "y": 816
+        }
+      ],
+      "tap": null,
+      "netId": "net-96300711-b6ab-4756-a2e5-135ac7457c63"
+    },
+    {
+      "id": "8516c985-6fc6-4dac-8ffb-55cdf2b7ae64",
+      "from": "4d2ae2fb-ef51-4724-8221-1419aaff1ea4",
+      "fromPort": 0,
+      "to": "a03ba0fe-1bb9-4a06-bc62-2af9bf4c1a2e",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-12ae1eef-dbc7-420a-959a-718c775f0cd1"
+    },
+    {
+      "id": "43f80f10-802a-4fd7-800f-9ea595870ac1",
+      "from": "56295c57-255b-4256-a40d-d68998d199af",
+      "fromPort": 0,
+      "to": "9e81466b-18b2-470b-9344-dc3b4d891844",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1944,
+          "y": 744
+        }
+      ],
+      "tap": null,
+      "netId": "net-93be5f0e-9f19-4a71-9b0d-5d0a9e443324"
+    },
+    {
+      "id": "0dab3992-ac1e-4aa7-bbff-012bc73eab13",
+      "from": "0669cbbf-663d-4089-a671-aa9cf9dde920",
+      "fromPort": 0,
+      "to": "3877b032-7eeb-4273-b0b4-ca0b83489b02",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-b8158f09-cf78-4cea-bc6d-7dea92913a52"
+    },
+    {
+      "id": "333f5d92-6666-42a2-9ef6-053e65b2e167",
+      "from": "cbe6e100-8657-4205-a15a-4ef144c47de6",
+      "fromPort": 0,
+      "to": "7f14dfd7-d164-42b8-ad04-c6a2c42662d6",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1944,
+          "y": 792
+        }
+      ],
+      "tap": null,
+      "netId": "net-0323ec82-e16c-4a67-9669-a8c5d22f859e"
+    },
+    {
+      "id": "72d38f52-1595-4a6f-8cf5-251f08029982",
+      "from": "2a85695c-7422-4b35-a553-d823dbd03b08",
+      "fromPort": 0,
+      "to": "08ab075e-4a2d-4861-85ec-3b88ce58d1a4",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-36d7eac1-5aae-4c3b-9711-e3c8ed29276d"
+    },
+    {
+      "id": "783c2f71-90d1-4807-9c7b-c6ac87aaf170",
+      "from": "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+      "fromPort": 0,
+      "to": "2a85695c-7422-4b35-a553-d823dbd03b08",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2808,
+          "y": 816
+        }
+      ],
+      "tap": null,
+      "netId": "net-d2cbd88b-ad31-4e92-a869-9c4f2b9abfa2"
+    },
+    {
+      "id": "23b88f71-2e3e-4925-bbf3-98968fde1754",
+      "from": "5982f154-3740-4d4d-96a8-d419664630c9",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2688,
+          "y": 816
+        }
+      ],
+      "tap": null,
+      "bus": true,
+      "busChannels": [
+        {
+          "name": "CH1",
+          "netId": "net-de1dbd5d-6807-45ea-83a3-40896e2f2572"
+        },
+        {
+          "name": "CH2",
+          "netId": "net-b9f3e6c3-2859-408c-87e8-92751ccddbd4"
+        },
+        {
+          "name": "CH3",
+          "netId": "net-ccb8d454-7ff3-474c-9db5-b7ba7208c97f"
+        }
+      ]
+    },
+    {
+      "id": "07d412e8-6d3b-4241-b86e-1afd3c1a8b15",
+      "from": null,
+      "fromPort": null,
+      "to": "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2664,
+          "y": 816
+        },
+        {
+          "x": 2664,
+          "y": 840
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "23b88f71-2e3e-4925-bbf3-98968fde1754",
+        "channel": "CH1",
+        "x": 2688,
+        "y": 816
+      },
+      "netId": "net-de1dbd5d-6807-45ea-83a3-40896e2f2572"
+    },
+    {
+      "id": "51ebe42e-8090-40b5-872a-b688f0013841",
+      "from": null,
+      "fromPort": null,
+      "to": "ded79543-6bd9-4b1c-950c-13abcc7a5d45",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2640,
+          "y": 816
+        },
+        {
+          "x": 2640,
+          "y": 864
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "23b88f71-2e3e-4925-bbf3-98968fde1754",
+        "channel": "CH2",
+        "x": 2632.6153846153848,
+        "y": 768
+      },
+      "netId": "net-b9f3e6c3-2859-408c-87e8-92751ccddbd4"
+    },
+    {
+      "id": "deaa8eff-dc72-4dc4-b27e-d0ddf11f106d",
+      "from": null,
+      "fromPort": null,
+      "to": "2a85695c-7422-4b35-a553-d823dbd03b08",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2688,
+          "y": 816
+        },
+        {
+          "x": 2688,
+          "y": 792
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "23b88f71-2e3e-4925-bbf3-98968fde1754",
+        "channel": "CH3",
+        "x": 2688,
+        "y": 816
+      },
+      "netId": "net-ccb8d454-7ff3-474c-9db5-b7ba7208c97f"
+    },
+    {
+      "id": "46daed11-dcdf-4ed7-a805-ccb932879933",
+      "from": "08ab075e-4a2d-4861-85ec-3b88ce58d1a4",
+      "fromPort": 0,
+      "to": "eb196d18-fc23-4616-996b-1ff4f14687a6",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-5d7e268d-3bb6-4777-9dd3-006e328ea02a"
+    },
+    {
+      "id": "0a1ccf55-3064-4bfe-bacb-7f229481ed96",
+      "from": "5982f154-3740-4d4d-96a8-d419664630c9",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2544,
+          "y": 768
+        }
+      ],
+      "tap": null,
+      "bus": true,
+      "busChannels": [
+        {
+          "name": "CH1",
+          "netId": "net-de1dbd5d-6807-45ea-83a3-40896e2f2572"
+        },
+        {
+          "name": "CH2",
+          "netId": "net-b9f3e6c3-2859-408c-87e8-92751ccddbd4"
+        },
+        {
+          "name": "CH3",
+          "netId": "net-ccb8d454-7ff3-474c-9db5-b7ba7208c97f"
+        }
+      ]
+    },
+    {
+      "id": "2b710c25-e300-4dae-beab-d561b5becf73",
+      "from": "a4aaef2a-3745-4a22-8044-1228a021d2f8",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2544,
+          "y": 768
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "0a1ccf55-3064-4bfe-bacb-7f229481ed96",
+        "channel": "CH1",
+        "x": 2544,
+        "y": 768
+      },
+      "netId": "net-de1dbd5d-6807-45ea-83a3-40896e2f2572"
+    },
+    {
+      "id": "29f4ed01-ef08-4689-b4d6-5767e4c43704",
+      "from": "7239a897-feeb-4dd9-9398-e5183c95fce4",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2568,
+          "y": 768
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "0a1ccf55-3064-4bfe-bacb-7f229481ed96",
+        "channel": "CH2",
+        "x": 2568,
+        "y": 768
+      },
+      "netId": "net-b9f3e6c3-2859-408c-87e8-92751ccddbd4"
+    },
+    {
+      "id": "fdaa23cc-cdb0-4716-9ba3-b174ace4d107",
+      "from": "9665d683-c39f-48e0-b800-5e89cb472f4c",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2592,
+          "y": 768
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "0a1ccf55-3064-4bfe-bacb-7f229481ed96",
+        "channel": "CH3",
+        "x": 2592,
+        "y": 768
+      },
+      "netId": "net-ccb8d454-7ff3-474c-9db5-b7ba7208c97f"
+    },
+    {
+      "id": "5d481b2a-620f-4248-9cb7-cc3d757b1e54",
+      "from": "4e891966-18bf-43ab-8148-80382a3d0e85",
+      "fromPort": 0,
+      "to": "8d2fbeb2-7fff-4746-9458-f6d4feeb27fe",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-c1318daa-db83-4fdc-b22f-11f03d5e893a"
+    },
+    {
+      "id": "2546c03d-070a-4471-930e-4d94804ff521",
+      "from": "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+      "fromPort": 0,
+      "to": "4e891966-18bf-43ab-8148-80382a3d0e85",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2808,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "netId": "net-1221b779-4822-4201-b1ff-58d308ebe90a"
+    },
+    {
+      "id": "ec4d943d-56ee-4d1c-a028-d90ecca66c06",
+      "from": "38c2d805-d1f3-49bb-82b8-00eaa1b0c02a",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2544,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "bus": true,
+      "busChannels": [
+        {
+          "name": "CH1",
+          "netId": "net-39a405e1-3d56-4bdb-9b05-4c392b0af1e9"
+        },
+        {
+          "name": "CH2",
+          "netId": "net-8f93af9b-acb0-4ba7-8e60-403eb87b8f97"
+        },
+        {
+          "name": "CH3",
+          "netId": "net-ade2b2b3-ce91-4059-bf8e-b3b1cff1ebf8"
+        }
+      ]
+    },
+    {
+      "id": "ee87e442-9aa6-47db-8481-f741797b6e24",
+      "from": "38c2d805-d1f3-49bb-82b8-00eaa1b0c02a",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2688,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "bus": true,
+      "busChannels": [
+        {
+          "name": "CH1",
+          "netId": "net-39a405e1-3d56-4bdb-9b05-4c392b0af1e9"
+        },
+        {
+          "name": "CH2",
+          "netId": "net-8f93af9b-acb0-4ba7-8e60-403eb87b8f97"
+        },
+        {
+          "name": "CH3",
+          "netId": "net-ade2b2b3-ce91-4059-bf8e-b3b1cff1ebf8"
+        }
+      ]
+    },
+    {
+      "id": "51208c06-9d41-41ea-bbd6-af2e2b7fb1e6",
+      "from": null,
+      "fromPort": null,
+      "to": "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2664,
+          "y": 384
+        },
+        {
+          "x": 2664,
+          "y": 408
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "ee87e442-9aa6-47db-8481-f741797b6e24",
+        "channel": "CH1",
+        "x": 2688,
+        "y": 384
+      },
+      "netId": "net-39a405e1-3d56-4bdb-9b05-4c392b0af1e9"
+    },
+    {
+      "id": "76ebeefc-cdcb-4d35-ac75-0604b2d204d9",
+      "from": null,
+      "fromPort": null,
+      "to": "5afb142a-a3b5-4ff7-8b9e-526e255a9c7f",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 2640,
+          "y": 384
+        },
+        {
+          "x": 2640,
+          "y": 432
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "ee87e442-9aa6-47db-8481-f741797b6e24",
+        "channel": "CH2",
+        "x": 2640,
+        "y": 384
+      },
+      "netId": "net-8f93af9b-acb0-4ba7-8e60-403eb87b8f97"
+    },
+    {
+      "id": "97a93f55-c40d-4101-a265-01ea50f75a4b",
+      "from": null,
+      "fromPort": null,
+      "to": "4e891966-18bf-43ab-8148-80382a3d0e85",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 2688,
+          "y": 384
+        },
+        {
+          "x": 2688,
+          "y": 360
+        }
+      ],
+      "tap": null,
+      "busStart": {
+        "busId": "ee87e442-9aa6-47db-8481-f741797b6e24",
+        "channel": "CH3",
+        "x": 2688,
+        "y": 384
+      },
+      "netId": "net-ade2b2b3-ce91-4059-bf8e-b3b1cff1ebf8"
+    },
+    {
+      "id": "dc912445-e0b7-46dd-8d34-5f24b836aa9c",
+      "from": "3d9bc6f2-9c27-4535-b922-a4f6b997554c",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2544,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "ec4d943d-56ee-4d1c-a028-d90ecca66c06",
+        "channel": "CH1",
+        "x": 2544,
+        "y": 384
+      },
+      "netId": "net-39a405e1-3d56-4bdb-9b05-4c392b0af1e9"
+    },
+    {
+      "id": "d907d88c-3313-4d9c-9b32-e3a0a6e004c4",
+      "from": "69b21a62-c150-49ab-95f4-ee71887382f1",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2568,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "ec4d943d-56ee-4d1c-a028-d90ecca66c06",
+        "channel": "CH2",
+        "x": 2568,
+        "y": 384
+      },
+      "netId": "net-8f93af9b-acb0-4ba7-8e60-403eb87b8f97"
+    },
+    {
+      "id": "2ab7fad9-5265-44f9-aab9-34d830704756",
+      "from": "1494534e-5a6c-42c8-87b5-0d70af04a4bb",
+      "fromPort": 0,
+      "to": null,
+      "toPort": null,
+      "points": [
+        {
+          "x": 2592,
+          "y": 384
+        }
+      ],
+      "tap": null,
+      "busEnd": {
+        "busId": "ec4d943d-56ee-4d1c-a028-d90ecca66c06",
+        "channel": "CH3",
+        "x": 2592,
+        "y": 384
+      },
+      "netId": "net-ade2b2b3-ce91-4059-bf8e-b3b1cff1ebf8"
+    },
+    {
+      "id": "6d019147-4649-4111-a272-9999b09b76fa",
+      "from": "8d2fbeb2-7fff-4746-9458-f6d4feeb27fe",
+      "fromPort": 0,
+      "to": "cb422ceb-2024-4836-8c9e-b68435624320",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-ebbf83e1-57e6-4ded-bac8-5225f59b7510"
+    },
+    {
+      "id": "623bd536-8544-4870-bd08-60650b26d9d6",
+      "from": "ce66c9d7-ae6f-42c0-baaf-ae0bc94c0f12",
+      "fromPort": 0,
+      "to": "27c56367-ef19-4765-afdc-fae5a54902d0",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-2ef0ef31-ae8c-4c0d-859c-0bc2fb906702"
+    },
+    {
+      "id": "f4012ae1-1bf0-4646-9bd7-42db12455c35",
+      "from": "9458c31f-0cfe-40eb-99b7-b3ca56176cf3",
+      "fromPort": 0,
+      "to": "d57b8809-4772-4bd7-aef4-4aad202cdfe7",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "net": "net",
+      "netId": "net-b8a89034-a2ec-46c9-9c30-04cd8334e12b"
+    },
+    {
+      "id": "509f6a77-8bef-460a-99db-2f55464ad6fb",
+      "from": "e2d15b2d-70c7-4701-abc9-8b5e94cc5415",
+      "fromPort": 0,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1560,
+          "y": 816
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "57b667e0-a4dd-4ac9-b8d5-e91a5e27f7d2",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1560,
+          "y": 816
+        },
+        {
+          "x": 1560,
+          "y": 792
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "3decd73c-52f1-432b-94d2-df0d2827c4d4",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 7,
+      "points": [
+        {
+          "x": 1560,
+          "y": 816
+        },
+        {
+          "x": 1560,
+          "y": 840
+        },
+        {
+          "x": 1560,
+          "y": 864
+        },
+        {
+          "x": 1560,
+          "y": 888
+        },
+        {
+          "x": 1560,
+          "y": 912
+        },
+        {
+          "x": 1560,
+          "y": 936
+        },
+        {
+          "x": 1560,
+          "y": 960
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "a8df7166-1de9-485f-a09d-b2ddd7c9c299",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 6,
+      "points": [
+        {
+          "x": 1560,
+          "y": 936
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "f84d650b-f074-4817-b148-ad549d8b7c5d",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 5,
+      "points": [
+        {
+          "x": 1560,
+          "y": 912
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "a9173f65-b9fa-4ff5-a491-f1fc3b2ce5a7",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 4,
+      "points": [
+        {
+          "x": 1560,
+          "y": 888
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "83cf3ccc-d1d0-402f-8593-0df4ffb4858d",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 3,
+      "points": [
+        {
+          "x": 1560,
+          "y": 864
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "79dec6b3-ec40-419e-8d66-fc86c4b0f69d",
+      "from": null,
+      "fromPort": null,
+      "to": "e6e33372-1f15-4fe0-821a-6f236dc8e5e6",
+      "toPort": 2,
+      "points": [
+        {
+          "x": 1560,
+          "y": 840
+        }
+      ],
+      "tap": null,
+      "netId": "net-eba1595c-d2b2-499c-94ea-a61ed50fa562"
+    },
+    {
+      "id": "cb4c2f0e-1abf-45a8-ae74-ace3c54b1fcc",
+      "from": "11ec2930-de8d-4ed6-ade9-e8dd9472c577",
+      "fromPort": 0,
+      "to": "50d10be6-c860-4555-a848-3c016d3a86b8",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1080,
+          "y": 336
+        }
+      ],
+      "tap": null,
+      "netId": "net-a1f14e2c-78d6-4587-a53b-2e6a26a0d037"
+    },
+    {
+      "id": "5a3b3525-f85d-41a9-8764-478af13daaf3",
+      "from": "11ec2930-de8d-4ed6-ade9-e8dd9472c577",
+      "fromPort": 0,
+      "to": "03795d0d-4083-4ba8-bc59-550c11ef9bf2",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1080,
+          "y": 528
+        }
+      ],
+      "tap": {
+        "x": 1080,
+        "y": 336
+      },
+      "netId": "net-a1f14e2c-78d6-4587-a53b-2e6a26a0d037"
+    },
+    {
+      "id": "a68210d9-838d-4368-9f87-25346c7969e9",
+      "from": "6aabe3e6-bfb9-43f5-912f-4343ac9d4722",
+      "fromPort": 0,
+      "to": "86f02ae8-eb51-4c2c-8b7d-306b62401523",
+      "toPort": 1,
+      "points": [
+        {
+          "x": 1200,
+          "y": 432
+        },
+        {
+          "x": 1344,
+          "y": 432
+        }
+      ],
+      "tap": null,
+      "netId": "net-bf826b35-9558-44af-9d9b-841d986a5f6e"
+    },
+    {
+      "id": "aaebe3e2-ca4c-40e1-bd42-4164e4017109",
+      "from": "6aabe3e6-bfb9-43f5-912f-4343ac9d4722",
+      "fromPort": 0,
+      "to": "03795d0d-4083-4ba8-bc59-550c11ef9bf2",
+      "toPort": 2,
+      "points": [
+        {
+          "x": 1200,
+          "y": 552
+        }
+      ],
+      "tap": {
+        "x": 1200,
+        "y": 432
+      },
+      "netId": "net-bf826b35-9558-44af-9d9b-841d986a5f6e"
+    },
+    {
+      "id": "e2f4f2c9-fa2a-4cbb-99f5-8d2178d7dbd5",
+      "from": "d774d464-d31e-4922-a00c-ce528c6405ce",
+      "fromPort": 0,
+      "to": "50d10be6-c860-4555-a848-3c016d3a86b8",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1320,
+          "y": 312
+        }
+      ],
+      "tap": null,
+      "netId": "net-69073f00-5116-4b24-af35-7ee2cdf7a8b7"
+    },
+    {
+      "id": "f04d9562-6367-418c-b366-ea0fca182cee",
+      "from": "d774d464-d31e-4922-a00c-ce528c6405ce",
+      "fromPort": 0,
+      "to": "86f02ae8-eb51-4c2c-8b7d-306b62401523",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1320,
+          "y": 408
+        }
+      ],
+      "tap": {
+        "x": 1320,
+        "y": 312
+      },
+      "netId": "net-69073f00-5116-4b24-af35-7ee2cdf7a8b7"
+    },
+    {
+      "id": "6f73f54d-a19c-4e49-b272-e575983112e8",
+      "from": "d774d464-d31e-4922-a00c-ce528c6405ce",
+      "fromPort": 0,
+      "to": "03795d0d-4083-4ba8-bc59-550c11ef9bf2",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1320,
+          "y": 504
+        }
+      ],
+      "tap": {
+        "x": 1320,
+        "y": 408
+      },
+      "netId": "net-69073f00-5116-4b24-af35-7ee2cdf7a8b7"
+    },
+    {
+      "id": "3c0fab2b-b954-4dfd-888c-873e62a129dc",
+      "from": "50d10be6-c860-4555-a848-3c016d3a86b8",
+      "fromPort": 0,
+      "to": "6817ccf8-1d42-406d-aaba-067b285e1a75",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1440,
+          "y": 288
+        }
+      ],
+      "tap": null,
+      "netId": "net-485a614d-f810-447f-aa7a-24cac5c0a971"
+    },
+    {
+      "id": "9c89d2e1-f236-42c8-94e8-f7cdfe60f500",
+      "from": null,
+      "fromPort": null,
+      "to": "79c7c31b-f782-4715-8549-1bf8d5fdfc3c",
+      "toPort": 0,
+      "points": [
+        {
+          "x": 1440,
+          "y": 936
+        }
+      ],
+      "tap": null,
+      "net": "net",
+      "netId": "net-343c6c45-cd46-4a6b-b060-1aaf09a0e0ad"
+    },
+    {
+      "id": "4aedc0f8-a116-4ec8-b1c7-80220fcc2126",
+      "from": "0269fb8a-0f87-42e5-9dda-1e4c5bef34cd",
+      "fromPort": 0,
+      "to": "6478ff5f-a58e-4c1a-868f-b1093df25e14",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-856b9dc0-ba89-42f2-b39b-7d87bed6bffd"
+    },
+    {
+      "id": "b2b65fd5-5751-406e-a3da-756141fed03e",
+      "from": "6dd17d4b-6da7-4a76-b0b1-228e9864a5cd",
+      "fromPort": 0,
+      "to": "077a654c-b4b8-4274-a29d-32da0adaa5e0",
+      "toPort": 0,
+      "points": [],
+      "tap": null,
+      "netId": "net-4e3f3bdc-54d0-4ee4-8015-73358fba9f7c"
+    }
+  ],
+  "starred": [],
+  "view": {
+    "scale": 0.5440728394753718,
+    "tx": 46.41053252419795,
+    "ty": -360.2132244643851,
+    "min": 0.25,
+    "max": 2.5,
+    "step": 0.1
+  },
+  "foldState": {
+    "Gates": true,
+    "Sequential": true,
+    "I/O": true,
+    "Sources": true,
+    "Programmable": true,
+    "Notes": true,
+    "Other": true
+  },
+  "armed": null
+}
